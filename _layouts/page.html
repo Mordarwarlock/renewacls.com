@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    {{ content }}
+
+    {% if page.state %}
+      <p><b>Medical News</b></p>
+      {% for doc in site.medical-news %}
+        {% if doc.state == page.state %}
+          <h4><u><em>{{ doc.date | date: "%b %d, %Y" }}</em> -- {{ doc.headline | escape }}</u></h4>
+          <blockquote>{{ doc.content }}</blockquote>
+          <p>Read more: <a href="{{ doc.link | escape }}">{{ doc.link | escape }}</a>
+          <hr>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,153 @@
+body {
+
+	font-family: 'Palanquin', sans-serif;
+
+}
+
+
+h1,h2,h3,h4,p {
+
+	font-family: 'Palanquin', sans-serif;
+
+}
+
+a:hover {
+
+	text-decoration: none;
+
+}
+
+
+/*=======================================
+    HEADER SECTION STYLES
+==================================================*/
+
+.uk-background {
+
+	background-image: url("../images/banner_1.jpg");
+	padding-bottom: 150px;
+
+}
+
+.uk-navbar-nav {
+
+	font-weight: 900;
+
+}
+
+
+#welcomeTitle {
+
+	padding-top: 170px;
+	color: white;
+	font-size: 50px;
+	font-weight: 500;
+
+}
+
+#infoHeader {
+
+	padding-top: 30px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+
+}
+
+.headerImg {
+
+	width: 80px;
+	height: 80px;
+
+
+}
+
+/*=======================================
+    INFORMATION SECTION STYLES
+==================================================*/
+
+#infoSec {
+
+	background-image: url("../images/banner_3.jpg");
+	padding-top: 50px;
+	padding-bottom: 100px;
+
+}
+
+#infoCards {
+
+	margin-top: 40px;
+
+}
+
+#about {
+
+	color: #f73636;
+
+}
+
+#emt {
+
+	background-color: #41a5f2;
+
+}
+
+#online {
+
+	background-color: #f73636;
+
+}
+
+.cardtext {
+
+	color: white;
+
+}
+
+.uk-card {
+
+	box-shadow: 5px 5px 10px 0 #CFCFCF, 0 2px 10px 0 #CFCFCF;
+
+}
+
+
+/*=======================================
+    STATES SECTION STYLES
+==================================================*/
+
+#states {
+
+	background-image: url("../images/banner_4.jpeg");
+	padding-top: 50px;
+	padding-bottom: 100px;
+
+}
+
+#statesTitle {
+
+	color: white;
+
+}
+
+#stateForm {
+
+	padding-top: 50px;
+
+}
+
+/*=======================================
+    FOOTER SECTION STYLES
+==================================================*/
+
+#allrights {
+
+	color: white;
+
+}
+
+#footer {
+
+	margin-top: -30px;
+	margin-bottom: -50px;
+
+}
